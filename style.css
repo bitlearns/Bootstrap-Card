@@ -1,0 +1,14 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Merriweather', serif;
+}
+
+.card-deck{
+    transition: all 0.7s ease;
+    position: relative;
+    padding: 1.5rem;
+}
+.card-deck:hover{
+    transform: scale(1.15);
+}
+
