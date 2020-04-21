@@ -1,5 +1,5 @@
 # Bootstrap-Card
-Three Bootstrap Card Each Having an Image, Author Name and Download Button in a Responsive Website.
-I have hosted the website on AWS by creating EC2 instance and S3 bucket as well.
-1. In EC2 instance http://18.219.62.12 
-2. In S3 bucket http://bootstrap-card.s3-website.us-east-2.amazonaws.com
+Three Bootstrap Cards Each Having an Image, Author Name and Download Button in a Responsive Website. The Data is Fetched from an API. Therefore, on every page reload three different images are displaced.
+There are many ways to select three different images. But, I used two methods which are discussed below.
+1. Three unique random images from a list of 100 images. (commented part in the index.html file from line 21 to 32 and line 37)
+2. Any random three consecutive images from a list of 100 images. (line 38,39,40 in index.html file)
