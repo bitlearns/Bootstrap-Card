@@ -4,11 +4,17 @@ body{
 }
 
 .card-deck{
+    margin-top: 0.55rem;
     transition: all 0.7s ease;
     position: relative;
-    padding: 1.5rem;
+    padding: 0.924rem;
+    box-sizing: border-box;
 }
 .card-deck:hover{
     transform: scale(1.15);
 }
-
+.heading{
+    background-color: rgb(213, 233, 252);
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+}
